@@ -28,8 +28,19 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
+show_excerpts: true
+
+plainwhite:
+  name: Lewis Robbins
+  sitemap: true
+  tagline: Developer. Designer
+  date_format: "%b %-d, %Y"
+
+  social_links:
+    github: lewisrobbins
+
 # Build settings
-theme: jekyll-theme-minimal
+remote_theme: thelehhman/plainwhite-jekyll
 plugins:
   - jekyll-feed
 
